@@ -12,7 +12,7 @@ public class Number
 	//Default Constructor
 	public Number()
 	{
-		//autoboxing
+		//autoboxing(technically)
 		number=0;
 	}
 
@@ -71,6 +71,7 @@ public class Number
 		returnString += number + " isOdd == " + isOdd() + "\n";
 		returnString += number + " isPerfect == " + isPerfect() + "\n\n";
 
-		return "" + returnString;
+		//return "" + returnString;
+		return "" + number;
 	}
 }
